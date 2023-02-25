@@ -1,0 +1,616 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'it' Physical Memory: 16168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Jacopo/LudJam
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62276
+Successfully changed project path to: C:/Users/Jacopo/LudJam
+C:/Users/Jacopo/LudJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28084] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1357626101 [EditorId] 1357626101 [Version] 1048832 [Id] WindowsEditor(7,JACO-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28084] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1357626101 [EditorId] 1357626101 [Version] 1048832 [Id] WindowsEditor(7,JACO-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jacopo/LudJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011883 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (318ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacopo\LudJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacopo\LudJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (2.0 MB). Loaded Objects now: 5613.
+Memory consumption went from 216.4 MB to 214.4 MB.
+Total: 4.192300 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.197500 ms  DeleteObjects: 0.471700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63729.975016 seconds.
+  path: Assets/Mats/Units/CootsAlert.png
+  artifactKey: Guid(53c93052188f11e47846b91e506eb9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Units/CootsAlert.png using Guid(53c93052188f11e47846b91e506eb9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4854b1938c6dc787f021dece7cf0a5') in 0.137518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.116700 seconds.
+  path: Assets/unità/GattoMortaio.prefab
+  artifactKey: Guid(6198eab7062019044ab3f0ee21767bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoMortaio.prefab using Guid(6198eab7062019044ab3f0ee21767bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e343b3a7bd4f4cc8ecc5aedb47cda93a') in 0.164373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.866858 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f511f5ff9232a86a3622760413724a1') in 0.022048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.468456 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58996c16c5ab0ea18cd2e39e5f89e5b6') in 0.030221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.612508 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932bd1eb5c57b6b267522ddf3832c765') in 0.014075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.847751 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6d20745fe119189b4c1d8ae8282823') in 0.013538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.985543 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb51f79d2e79c58a89235d2ab2c9b9c') in 0.014934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.457277 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53493ab6194c8b08e417baad2a2f4ff9') in 0.012410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.433308 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063a4a8a7071a83582546fe887318109') in 0.015489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392232 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc28110ce5621603813154f0bea62a2') in 0.012840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187340 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5121a8747127098c740488885a586db') in 0.013419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.999646 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c858df1d11dc20b96b15454ba0dcd87') in 0.012997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404394 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91846ad636244f68ee0900c894aa8f13') in 0.014007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.807291 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff537279a22a6f02ed1d44629bd05a98') in 0.013739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.193366 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c693ad1ceacc982c734984bae342080') in 0.013641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.592755 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac6e4e784cf167ef2b5723d280ce2a0') in 0.017029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.000322 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7704f714b041de1bff77904b79702c5') in 0.012981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590474 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de794b7f5d7d7f342baae7b8fc79798e') in 0.013294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.995094 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399dc320d86929eaa3b5184db3c88992') in 0.012684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.190867 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01abc4e20ada988a0354acd9ee90f9f') in 0.014593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.405598 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1de6091c594159d88658bea62ac345') in 0.020487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584842 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35d45d469a44525751002059964d647') in 0.021319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.172690 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f1c1b7c67f4d65bcd5f169f5ad4f60') in 0.030139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.354809 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517cfe649ea185f615e4f0b85d94ef3f') in 0.019095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.793249 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a936b89632f572a8f80eea64b5aa6c0') in 0.018259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.194065 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5215d3a822c1eab85216d54b2d6ce045') in 0.019614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.578735 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae16e13458c778f303d72d0393ef8a3') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.800066 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02798b129e133accbc879b89f69537f') in 0.019558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.022571 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c13da4b2cff1b4d5336dc145d66eec') in 0.019649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.395959 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dde8e0abf256670f8775968922b0a1') in 0.018711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190281 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc36b26ebefc37e61f62cb54523ead3') in 0.018078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590408 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586d0024a7ece567c205ff56da9bc365') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 687.525513 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b6a711ad1554c1492954d086a2886e') in 0.015865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998999 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7bf4a13d65ac7fdf20e4d4a48e92b9') in 0.015610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.180174 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b35d20420ad924fea34424de65f451c') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.818241 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808b612ea4e0b2eead369f7662862359') in 0.012396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.187461 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d71701c03bc163a73efced7a696767a') in 0.020042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588111 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e61ac57c666bdca2721aa1f9f599eda') in 0.011725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998839 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da614f6276a242c2d197b61445dcce9') in 0.010702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.607816 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5803e4a15f20c598c1d3a0ab8c698a') in 0.010116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.197025 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8189ac76384ebda246587799d5e6e164') in 0.010896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404224 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937bd911c8d8359222daa6f31ac5755e') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.014191 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190ba2bc246207323a8b19b0ef4786e1') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.717736 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6429321e3f926c4ef63270b9e0e960a5') in 0.018889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.206422 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a610ac99e5a35951487394581756efcb') in 0.013793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.585056 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122d22a12760a9f16129f98c4dd3563e') in 0.017315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582324 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96daed0bb56f5536f31ba7eef6bf9a28') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.796771 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949164b1f273e3809dab935a2f88398f') in 0.013521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.610340 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95529fbf728dcd662eede9f4845f711f') in 0.012467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.597539 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6dcbf24110185c0081c0207e4e4d02') in 0.012633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.405692 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc4b731ce99a1a81457291bd266b52a') in 0.012657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.409528 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c03e86b34d21853e19e4017fa089c') in 0.011843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789515 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb985456ae1329a481613eefaa622df') in 0.020463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.739764 seconds.
+  path: Assets/unità/GattoAlto.prefab
+  artifactKey: Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoAlto.prefab using Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5944de348cb819f1b70344bb21b1a269') in 0.012937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.194736 seconds.
+  path: Assets/unità/GattoAlto.prefab
+  artifactKey: Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoAlto.prefab using Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74f2bf6a2c21ff446ff1999ccb379b5') in 0.009897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.825285 seconds.
+  path: Assets/unità/GattoAlto.prefab
+  artifactKey: Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoAlto.prefab using Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47754c5198509ffe276be5b02e7bb6f') in 0.010310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.846211 seconds.
+  path: Assets/unità/GattoAlto.prefab
+  artifactKey: Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoAlto.prefab using Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b452f6beb46a1b93e7354251008803fc') in 0.009403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.761695 seconds.
+  path: Assets/unità/GattoPistola.prefab
+  artifactKey: Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoPistola.prefab using Guid(69380f97b13c85344ba6d8f4ff032c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514e5bc679eba94812140442f6dc2bfa') in 0.018031 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006720 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacopo\LudJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacopo\LudJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 5691.
+Memory consumption went from 210.6 MB to 208.6 MB.
+Total: 2.935800 ms (FindLiveObjects: 0.317000 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.030400 ms  DeleteObjects: 0.391200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.137849 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75c5e4444011386b6f0d9ae12eaac2f') in 0.144981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.419580 seconds.
+  path: Assets/unità/GattoCursed.prefab
+  artifactKey: Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoCursed.prefab using Guid(a139ebd5c640b90498b417d3e9607583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36be231dcea01e1b66083dd3a51bc954') in 0.020903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.992406 seconds.
+  path: Assets/unità/gattoBoom.prefab
+  artifactKey: Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/gattoBoom.prefab using Guid(794affa79fb604240b9a7559f546f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f51d714763da1fb6508d87d0472b877') in 0.011443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.009583 seconds.
+  path: Assets/unità/GattoBase.prefab
+  artifactKey: Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoBase.prefab using Guid(1eb59db5445abe144be990dc14ef8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40fceccfc1a16adcaf1bbdd9957e831') in 0.014392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.599419 seconds.
+  path: Assets/unità/GattoAlto.prefab
+  artifactKey: Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unità/GattoAlto.prefab using Guid(1a3d2e2c2c7545d419b0456300ac404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e09c344a18d20925a73799651a30fbf') in 0.020443 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 5768.
+Memory consumption went from 116.3 MB to 114.3 MB.
+Total: 4.166100 ms (FindLiveObjects: 0.297800 ms CreateObjectMapping: 0.155300 ms MarkObjects: 3.274400 ms  DeleteObjects: 0.438000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
